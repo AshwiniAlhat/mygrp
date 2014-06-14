@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * 
+ *
  */
 
 /**
@@ -31,8 +31,8 @@ public class TestMyFirstClass {
 	@Test
 	public void testMultiply() {
 		MyFirstClass myFirstClass=new MyFirstClass();
-		assertTrue(myFirstClass.multiply(5, 4)==20);
-		
+		assertTrue(myFirstClass.multiply(5, 5)==25);
+
 	}
 
 }
